@@ -4,6 +4,8 @@
  */
 package es.cvjpy;
 
+import es.cvjpy.aplicacion.Preferencias;
+
 /**
  *
  * @author carlos
@@ -19,4 +21,6 @@ public interface PrincipalCliPro {
     void setUsuarioRemoto(String userName);
 
     PrincipalPro getServidor();
+
+    Preferencias getPreferencias();
 }
