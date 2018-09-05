@@ -4,8 +4,6 @@
  */
 package es.cvjpy;
 
-import es.cvjpy.aplicacion.Preferencias;
-
 /**
  *
  * @author carlos
@@ -22,5 +20,4 @@ public interface PrincipalCliPro {
 
     PrincipalPro getServidor();
 
-    Preferencias getPreferencias();
 }
